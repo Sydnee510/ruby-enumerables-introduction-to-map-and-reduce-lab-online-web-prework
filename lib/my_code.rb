@@ -10,3 +10,4 @@ def map_to_double(source_array)
   source_array.map { |source_array| source_array * 2 }
 end
 def map_to_square(source_array)
+  source_array.map { |num| num ** 2}
